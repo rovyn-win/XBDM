@@ -1,0 +1,38 @@
+LIBRARY xbdm.dll
+EXPORTS
+	DmAllocatePool			@1
+	DmAllocatePoolWithTag	@2
+	DmCloseLoadedModules	@4
+	DmCloseModuleSections	@5
+	DmContinueThread		@8
+	DmFreePool			@9
+	DmGetMemory			@10
+	DmGetProcAddress		@12
+	DmGetThreadContext	@13
+	DmGetThreadList		@15
+
+	DmGetXbeInfo			@16
+	DmGetXboxName			@17
+	DmIsDebuggerPresent	@21
+	DmIsThreadStopped	@22
+	DmReboot			@28
+	DmRegisterCommandProcessor @30
+	DmResumeThread		@35
+	DmSendNotificationString @36
+	DmSetMemory			@40
+	DmSetThreadContext	@41
+	DmStopOn			@46
+	DmSuspendThread		@48
+	DmWalkLoadedModules	@51
+	DmWalkModuleSections	@52
+	DmRegisterCommandProcessorEx @72
+
+	DmGetThreadInfoEx		@89
+	DmGetDumpMode		@117
+	DmSetDumpMode		@118
+	DmRebootEx			@125
+
+	DmMapDevkitDrive		@141
+	DmWalkLoadedModulesEx	@142
+
+	DmGetSystemInfo			@161

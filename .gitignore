@@ -1,0 +1,34 @@
+# Build output
+/build/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.xex
+*.xdb
+*.map
+*.log
+
+# Visual Studio local state
+.vs/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.ncb
+ipch/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+/xbdm/imp/
